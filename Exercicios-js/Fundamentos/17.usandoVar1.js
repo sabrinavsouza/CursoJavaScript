@@ -11,11 +11,11 @@
     }
 }
 
-console.log(sera) // vísivel mesmo fora do bloco/escopo
+console.log(sera) // vísivel mesmo fora do bloco/escopo, mas se fosse função não ficaria
 
 function teste(){
     var local = 123
-    console.log(local) // console dentro da function mostra a variavel
+    console.log(local) // console dentro da function mostra a variavel, não é uma variavel global
 
 }
 
